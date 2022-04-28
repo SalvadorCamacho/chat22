@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="primary">
+
+    <ion-title>
+      <div class="ion-text-center">
+         Registro
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <img class="icon"
+  src="assets/icon/registro.png" alt="registro">
+
+  <ion-item>
+    <ion-label position="floating"> Nombre: </ion-label>
+     <ion-input type="text" name="name" id="nombre"
+             [(ngModel)]="name"
+    ></ion-input>
+  </ion-item>
+  <ion-item>
+   <ion-label position="floating"> Correo electrónico: </ion-label>
+    <ion-input type="email" name="email" id="ema"
+       [(ngModel)]="email"
+      ></ion-input>
+ </ion-item>
+ <ion-item>
+   <ion-label position="floating"> Contraseña:</ion-label>
+    <ion-input type="password" name="password" id="con"
+     [(ngModel)]="password" ></ion-input>
+ </ion-item>
+
+ <ion-button expand="block" (click)="registrar()"
+   class="espacios"
+ >Ingresar</ion-button>
+ <div class="espacioVertical"></div>
+ <ion-button expand="block" (click)="regresar()"
+   class="fondoColor espacios"
+
+ >Ya tengo cuenta</ion-button>
+</ion-content>
