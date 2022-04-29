@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchat=self.webpackChunkchat||[]).push([[4376],{4376:(_,c,s)=>{s.r(c),s.d(c,{ion_text:()=>l});var t=s(2361),n=s(8686),h=s(7300);const l=class{constructor(o){(0,t.r)(this,o)}render(){const o=(0,n.b)(this);return(0,t.h)(t.H,{class:(0,h.c)(this.color,{[o]:!0})},(0,t.h)("slot",null))}};l.style=":host(.ion-color){color:var(--ion-color-base)}"}}]);
